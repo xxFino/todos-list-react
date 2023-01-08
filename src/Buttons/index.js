@@ -4,13 +4,13 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
     tasks.length > 0 && (
         <div className="additionalButtons">
             <button className="additionalButtons__button">
-                {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone zadania
+                {hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone
             </button>
             <button
                 className="additionalButtons__button"
                 disabled={tasks.every(({ done }) => done)}
             >
-                Ukończ wszystkie zadania
+                Ukończ wszystkie
             </button>
         </div>
     )

@@ -10,7 +10,7 @@
     gap: 10px;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #ddd;
 }
 
 .tasks__item--hidden {

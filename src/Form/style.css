@@ -12,7 +12,7 @@
 } 
 
 .form__input {
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #ddd;
 }
 
@@ -20,7 +20,7 @@
     background-color: hsl(180, 100%, 25%);
     border: none;
     color: white;
-    padding: 5px;
+    padding: 10px;
     transition: 1s;
 }
 
