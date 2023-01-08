@@ -3,7 +3,14 @@
 ## Visit website here
 https://xxfino.github.io/todos-list-react/
 
-Description
+## Description
+
+This is the website that can be used as a for example notebook. You can write here things that You want to do in a day, week, month, etc. We can mark which things 
+we have already done and also We can remove something if we don't want to do it or if we already did it. 
+
+## Update
+
+I added two buttons. One of them can make done tasks dissaper in our list. Second one gives us the opportunity to make all the tasks done with just one click. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
