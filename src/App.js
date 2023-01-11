@@ -13,12 +13,22 @@ function App() {
     { id: 2, content: "zjeść kolacje", done: true },
   ]);
 
+  const toogleHideDone = () => {
+    setHideDone(hideDone => !hideDone);
+  };
+
   const removeTasks = (id) => {
     setTasks(tasks => tasks.filter(task => task.id !== id));
   };
 
-  const toogleHideDone = () => {
-    setHideDone(hideDone => !hideDone);
+  const toogleTaskDone = (id) => {
+    setTasks(tasks => tasks.map(task => {
+      if (task.id === id) {
+        return { ...task, done: !task.done };
+      }
+
+      return task;
+    }));
   };
 
   return (
@@ -30,7 +40,13 @@ function App() {
       />
       <Section
         title="Lista zadań"
-        body={<Tasks tasks={tasks} hideDone={hideDone} removeTasks={removeTasks} />}
+        body={
+          <Tasks tasks={tasks}
+            hideDone={hideDone}
+            removeTasks={removeTasks}
+            toogleTaskDone={toogleTaskDone}
+          />
+        }
         extraHeaderContent={
           <Buttons tasks={tasks}
             hideDone={hideDone}
