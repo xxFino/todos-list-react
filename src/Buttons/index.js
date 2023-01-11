@@ -1,9 +1,9 @@
 import "./style.css";
 
-const Buttons = ({ tasks, hideDone }) => (
+const Buttons = ({ tasks, hideDone, toogleHideDone }) => (
     tasks.length > 0 && (
         <div className="additionalButtons">
-            <button className="additionalButtons__button">
+            <button onClick={toogleHideDone} className="additionalButtons__button">
                 {hideDone ? "Pokaż" : "Ukryj"} ukończone
             </button>
             <button
