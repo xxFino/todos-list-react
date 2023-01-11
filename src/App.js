@@ -8,7 +8,7 @@ import { useState } from "react";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
-  const [tasks, setTasks] = useState([
+  let [tasks, setTasks] = useState([
     { id: 1, content: "przejść na Reacta", done: false },
     { id: 2, content: "zjeść kolacje", done: true },
   ]);
@@ -31,6 +31,13 @@ function App() {
     }));
   };
 
+  const setAllDone = () => {
+    setTasks(tasks = tasks.map(task => ({
+      ...task,
+      done: true,
+    })));
+  };
+
   return (
     <Container>
       <Header title="Lista zadań" />
@@ -51,6 +58,7 @@ function App() {
           <Buttons tasks={tasks}
             hideDone={hideDone}
             toogleHideDone={toogleHideDone}
+            setAllDone={setAllDone}
           />
         }
       />
