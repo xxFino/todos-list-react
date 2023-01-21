@@ -11,6 +11,7 @@ we have already done and also We can remove something if we don't want to do it 
 ## Update
 
 I added two buttons. One of them can make done tasks dissaper in our list. Second one gives us the opportunity to make all the tasks done with just one click. 
+There is one more update. I added localStorage to the program.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
