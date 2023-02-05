@@ -1,8 +1,8 @@
-import { DivComponent, Button } from "./styled";
+import { Button, StyledButtons } from "./styled";
 
 const Buttons = ({ tasks, hideDone, toogleHideDone, setAllDone }) => (
     tasks.length > 0 && (
-        <DivComponent>
+        <StyledButtons>
             <Button
                 onClick={toogleHideDone}                
             >
@@ -14,7 +14,7 @@ const Buttons = ({ tasks, hideDone, toogleHideDone, setAllDone }) => (
             >
                 Ukończ wszystkie
             </Button>
-        </DivComponent>
+        </StyledButtons>
     )
 );
 

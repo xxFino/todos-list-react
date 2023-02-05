@@ -21,6 +21,6 @@ export const Header = styled.header`
     }
 `;
 
-export const H2 = styled.h2`
+export const Title = styled.h2`
     margin: 0;
 `;
