@@ -25,16 +25,17 @@ export const Content = styled.span`
     `}
 `;
 
-export const Button = styled.button`
+const Button = styled.button`
     padding: 0px;
     border: none;
     color: white;
     width: 30px;
     height: 30px;
-
-    ${({ done }) => done && css`
-    background-color: hsl(120, 100%, 30%);
     transition: 1s;
+`;
+export const ToogleDoneButton = styled(Button)`
+    background-color: hsl(120, 100%, 30%);
+   
 
         &:hover {
             background-color: hsl(120, 100%, 50%);
@@ -42,12 +43,12 @@ export const Button = styled.button`
 
         &:active {
             background-color: hsl(120, 100%, 50%);
-        }
-    `}
+        }    
+`;   
 
-    ${({ remove }) => remove && css`
+  export const RemoveTasksButton = styled(Button)`
     background-color: hsl(0, 100%, 35%);
-    transition: 1s;    
+     
 
         &:hover {
             background-color: hsl(0, 100%, 50%);
@@ -55,6 +56,5 @@ export const Button = styled.button`
 
         &:active {
             background-color: hsl(0, 100%, 55%);
-        }
-    `}
+        }    
 `;
