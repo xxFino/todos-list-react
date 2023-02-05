@@ -3,7 +3,7 @@ import Form from "./Form";
 import Tasks from "./Tasks";
 import Section from "./Section";
 import Header from "./Header";
-import Container from "./Container";
+import { Container } from "./StyledContainer";
 import { useTasks } from "./useTasks";
 
 function App() {
