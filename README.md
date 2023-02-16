@@ -20,6 +20,7 @@ In my website I used this technologies:
 - Immutability
 - Styled components
 - Redux
+- LocalStorage
 
 ## Update
 
