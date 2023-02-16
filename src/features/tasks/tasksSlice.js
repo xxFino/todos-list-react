@@ -22,9 +22,7 @@ const tasksSlice = createSlice({
             tasks.splice(index, 1);
         },
         setAllDone: ({tasks}) =>{
-            for (const task of tasks) {
-                task.done = true;
-            };
+            tasks.forEach((task) => (task.done = true));            
         },
     },
 });
