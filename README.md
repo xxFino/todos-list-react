@@ -3,6 +3,8 @@
 ## Visit website here
 https://xxfino.github.io/todos-list-react/
 
+## This is the look of the website now:
+![Sample](public/pagePhoto.png)
 ## Description
 
 This is the website that can be used as a for example notebook. You can write here things that You want to do in a day, week, month, etc. We can mark which things 
