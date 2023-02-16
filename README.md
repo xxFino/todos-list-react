@@ -19,7 +19,7 @@ In my website I used this technologies:
 - BEM
 - Immutability
 - Styled components
--Redux
+- Redux
 
 ## Update
 
