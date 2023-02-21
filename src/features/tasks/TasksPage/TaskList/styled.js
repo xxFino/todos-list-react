@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components"
+import { Link } from "react-router-dom";
 
 export const List = styled.ul`
     margin: 0;
@@ -58,4 +59,9 @@ export const ToggleDoneButton = styled(Button)`
         &:active {
             background-color: hsl(0, 100%, 55%);
         }    
+`;
+
+export const StyledLink = styled(Link)`
+    text-decoration: none;   
+    color: teal; 
 `;
