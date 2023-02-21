@@ -4,7 +4,7 @@
 https://xxfino.github.io/todos-list-react/
 
 ## This is the look of the website now:
-![Sample](public/pagePhoto.png)
+![Sample](pagePhoto.png)
 ## Description
 
 This is the website that can be used as a for example notebook. You can write here things that You want to do in a day, week, month, etc. We can mark which things 
@@ -13,20 +13,21 @@ we have already done and also We can remove something if we don't want to do it 
 In my website I used this technologies:
 
 - HTML
-- CSS
+- CSS (BEM, Media query, Flex, Grid)
 - Java Script
-- React.js
-- Axios, async, await
-- Hooks
-- BEM
+- React.js (styled-components, hooks: useRef, useState, useEffect, custom hooks)
 - Immutability
-- Styled components
-- Redux
+- Axios, async, await
+- Webpack
+- Redux (hooks: useSelector, useDispatch, reducers)
+- Redux-saga
+- React-router-dom
 - LocalStorage
+- Github
 
 ## Update
 
-I added two buttons. One of them can make done tasks dissaper in our list. Second one gives us the opportunity to make all the tasks done with just one click. Program also have now localStorage and Redux.
+I added two buttons. One of them can make done tasks dissaper in our list. Second one gives us the opportunity to make all the tasks done with just one click. Program also have now localStorage and Redux, redux-saga, react-router-dom.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
