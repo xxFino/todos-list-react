@@ -19,5 +19,5 @@ export default () => {
                 onChange={onInputChange}
             />
         </Wrapper>
-    )
+    );
 };

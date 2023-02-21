@@ -15,7 +15,7 @@ const ExampleTasksButton = () => {
             }            
         </Button>
     </StyledButtons>
-    )
+    );
 };
 
 export default ExampleTasksButton;

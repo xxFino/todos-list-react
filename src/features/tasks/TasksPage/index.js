@@ -29,7 +29,7 @@ function TasksPage() {
         }
       />
     </Container>
-  );
-}
+  )
+};
 
 export default TasksPage;

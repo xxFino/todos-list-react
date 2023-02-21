@@ -26,7 +26,7 @@ const Buttons = () => {
                 </>
             )}
         </StyledButtons>
-    )
+    );
 };
 
 export default Buttons;

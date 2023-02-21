@@ -20,6 +20,6 @@ function TaskPage() {
             />
         </Container>
     );
-}
+};
 
 export default TaskPage;

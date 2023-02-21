@@ -59,6 +59,6 @@ export const selectTaskByQuery = (state, query) => {
     }
 
     return selectTasks(state).filter(({ content }) => content.toUpperCase().includes(query.trim().toUpperCase()));
-}
+};
 
 export default tasksSlice.reducer;

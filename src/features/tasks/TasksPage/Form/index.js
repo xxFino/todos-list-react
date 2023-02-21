@@ -19,7 +19,7 @@ const Form = () => {
 
         if (!trimmedContent) {
             return;
-        }
+        };
 
         dispatch(addTask({
             content: trimmedContent,
@@ -44,7 +44,7 @@ const Form = () => {
             />
             <Button onClick={focusInput}>Dodaj zadanie</Button>
         </FormContainer>
-    )
+    );
 };
 
 export default Form;
