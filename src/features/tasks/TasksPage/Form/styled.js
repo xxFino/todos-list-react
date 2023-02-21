@@ -16,7 +16,6 @@ export const Button = styled.button`
     color: white;
     padding: 10px;
     transition: 1s;
-    height: 40.39px;
     margin-top: 20px;
 
     &:hover {
