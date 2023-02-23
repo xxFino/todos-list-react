@@ -9,16 +9,16 @@ export const StyledNavLink = styled(NavLink).attrs(() => ({
     &.${activeClassName} {
         font-weight: bold;
     }
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
     color: white;
-    font-size: 30px;
     text-decoration: none;
+
+    &:hover {
+        border-bottom: 1px solid;
+    }
 `;
 
 export const StyledNavList = styled.ul`
-    display: grid;
+    display: flex;
     justify-content: center;
     list-style: none;
     padding: 0px;
@@ -27,5 +27,5 @@ export const StyledNavList = styled.ul`
 `;
 
 export const StyledNavItem = styled.li`
-    margin-top: 20px;
+    margin: 20px
 `;
