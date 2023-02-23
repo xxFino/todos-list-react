@@ -1,6 +1,6 @@
-import Header from "../../common/Header";
-import Section from "../../common/Section";
-import { Container } from "../../common/StyledContainer";
+import Header from "../../../common/Header";
+import Section from "../../../common/Section";
+import { Container } from "../../../common/StyledContainer";
 
 export default () => (
     <Container>
